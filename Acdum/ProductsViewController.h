@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ProductsViewController.h
 //  Acdum
 //
 //  Created by Marcus Kida on 23.02.13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ProductsViewController : UITableViewController
 
 @end

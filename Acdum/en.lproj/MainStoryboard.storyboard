@@ -1,23 +1,91 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dfi-0s-YWT">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="5">
+        <!--Products View Controller-->
+        <scene sceneID="DRT-ZT-qca">
             <objects>
-                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <tableViewController id="dfi-0s-YWT" customClass="ProductsViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2yJ-LO-65P">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="xi3-Sn-ADp">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="left" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbN-HH-33N">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="101" contentMode="left" text="Details" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tq-Ln-tqf">
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="2zo-Bm-yrd"/>
+                                                <constraint firstAttribute="width" constant="143" id="gis-iL-U0X"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="102" contentMode="left" text="Price" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urz-xh-qCv">
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="5hC-AE-Ara"/>
+                                                <constraint firstAttribute="width" constant="83" id="8f9-YG-7Kp"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="103" contentMode="left" text="Ammount" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGb-14-ydD">
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="urz-xh-qCv" secondAttribute="trailing" constant="20" type="default" id="1kB-V8-yMV"/>
+                                    <constraint firstItem="PbN-HH-33N" firstAttribute="top" secondItem="xi3-Sn-ADp" secondAttribute="top" constant="2" id="7lJ-7t-ts3"/>
+                                    <constraint firstItem="PbN-HH-33N" firstAttribute="leading" secondItem="xi3-Sn-ADp" secondAttribute="leading" constant="20" type="default" id="7pv-jb-5TG"/>
+                                    <constraint firstAttribute="trailing" secondItem="PbN-HH-33N" secondAttribute="trailing" constant="20" type="default" id="8sl-VN-P66"/>
+                                    <constraint firstItem="2tq-Ln-tqf" firstAttribute="top" secondItem="xi3-Sn-ADp" secondAttribute="top" constant="20" type="default" id="Arg-g7-PM8"/>
+                                    <constraint firstItem="urz-xh-qCv" firstAttribute="baseline" secondItem="PbN-HH-33N" secondAttribute="baseline" type="default" id="Bey-Uq-Q48"/>
+                                    <constraint firstItem="gGb-14-ydD" firstAttribute="baseline" secondItem="2tq-Ln-tqf" secondAttribute="baseline" type="default" id="Bix-yO-PUH"/>
+                                    <constraint firstAttribute="trailing" secondItem="gGb-14-ydD" secondAttribute="trailing" constant="20" type="default" id="Cg8-kA-eaV"/>
+                                    <constraint firstItem="urz-xh-qCv" firstAttribute="top" secondItem="PbN-HH-33N" secondAttribute="top" type="default" id="D3d-E8-CQQ"/>
+                                    <constraint firstItem="urz-xh-qCv" firstAttribute="leading" secondItem="gGb-14-ydD" secondAttribute="leading" type="default" id="LQA-UP-GFM"/>
+                                    <constraint firstItem="gGb-14-ydD" firstAttribute="top" secondItem="xi3-Sn-ADp" secondAttribute="top" constant="20" type="default" id="LfH-Xh-SD6"/>
+                                    <constraint firstItem="2tq-Ln-tqf" firstAttribute="leading" secondItem="xi3-Sn-ADp" secondAttribute="leading" constant="20" type="default" id="jBg-fH-LqQ"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dfi-0s-YWT" id="tEP-TG-mXN"/>
+                            <outlet property="delegate" destination="dfi-0s-YWT" id="qLg-xW-PKu"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cJs-e2-rNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="192" y="112"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ProductsViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProductsViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
