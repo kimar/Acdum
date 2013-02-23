@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE69479216D8AD4600CD20FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE69479116D8AD4600CD20FE /* UIKit.framework */; };
+		BE69479416D8AD4600CD20FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE69479316D8AD4600CD20FE /* Foundation.framework */; };
+		BE69479616D8AD4600CD20FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE69479516D8AD4600CD20FE /* CoreGraphics.framework */; };
+		BE69479C16D8AD4600CD20FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE69479A16D8AD4600CD20FE /* InfoPlist.strings */; };
+		BE69479E16D8AD4600CD20FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE69479D16D8AD4600CD20FE /* main.m */; };
+		BE6947A216D8AD4600CD20FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6947A116D8AD4600CD20FE /* AppDelegate.m */; };
+		BE6947A416D8AD4600CD20FE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6947A316D8AD4600CD20FE /* Default.png */; };
+		BE6947A616D8AD4600CD20FE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6947A516D8AD4600CD20FE /* Default@2x.png */; };
+		BE6947A816D8AD4600CD20FE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6947A716D8AD4600CD20FE /* Default-568h@2x.png */; };
+		BE6947AB16D8AD4600CD20FE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6947A916D8AD4600CD20FE /* MainStoryboard.storyboard */; };
+		BE6947AE16D8AD4600CD20FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6947AD16D8AD4600CD20FE /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE69478E16D8AD4600CD20FE /* Acdum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acdum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE69479116D8AD4600CD20FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE69479316D8AD4600CD20FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE69479516D8AD4600CD20FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE69479916D8AD4600CD20FE /* Acdum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acdum-Info.plist"; sourceTree = "<group>"; };
+		BE69479B16D8AD4600CD20FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE69479D16D8AD4600CD20FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE69479F16D8AD4600CD20FE /* Acdum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acdum-Prefix.pch"; sourceTree = "<group>"; };
+		BE6947A016D8AD4600CD20FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE6947A116D8AD4600CD20FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE6947A316D8AD4600CD20FE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE6947A516D8AD4600CD20FE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BE6947A716D8AD4600CD20FE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE6947AA16D8AD4600CD20FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BE6947AC16D8AD4600CD20FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE6947AD16D8AD4600CD20FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE69478B16D8AD4600CD20FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE69479216D8AD4600CD20FE /* UIKit.framework in Frameworks */,
+				BE69479416D8AD4600CD20FE /* Foundation.framework in Frameworks */,
+				BE69479616D8AD4600CD20FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE69478516D8AD4600CD20FE = {
+			isa = PBXGroup;
+			children = (
+				BE69479716D8AD4600CD20FE /* Acdum */,
+				BE69479016D8AD4600CD20FE /* Frameworks */,
+				BE69478F16D8AD4600CD20FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE69478F16D8AD4600CD20FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE69478E16D8AD4600CD20FE /* Acdum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE69479016D8AD4600CD20FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE69479116D8AD4600CD20FE /* UIKit.framework */,
+				BE69479316D8AD4600CD20FE /* Foundation.framework */,
+				BE69479516D8AD4600CD20FE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE69479716D8AD4600CD20FE /* Acdum */ = {
+			isa = PBXGroup;
+			children = (
+				BE6947A016D8AD4600CD20FE /* AppDelegate.h */,
+				BE6947A116D8AD4600CD20FE /* AppDelegate.m */,
+				BE6947A916D8AD4600CD20FE /* MainStoryboard.storyboard */,
+				BE6947AC16D8AD4600CD20FE /* ViewController.h */,
+				BE6947AD16D8AD4600CD20FE /* ViewController.m */,
+				BE69479816D8AD4600CD20FE /* Supporting Files */,
+			);
+			path = Acdum;
+			sourceTree = "<group>";
+		};
+		BE69479816D8AD4600CD20FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE69479916D8AD4600CD20FE /* Acdum-Info.plist */,
+				BE69479A16D8AD4600CD20FE /* InfoPlist.strings */,
+				BE69479D16D8AD4600CD20FE /* main.m */,
+				BE69479F16D8AD4600CD20FE /* Acdum-Prefix.pch */,
+				BE6947A316D8AD4600CD20FE /* Default.png */,
+				BE6947A516D8AD4600CD20FE /* Default@2x.png */,
+				BE6947A716D8AD4600CD20FE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE69478D16D8AD4600CD20FE /* Acdum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6947B116D8AD4600CD20FE /* Build configuration list for PBXNativeTarget "Acdum" */;
+			buildPhases = (
+				BE69478A16D8AD4600CD20FE /* Sources */,
+				BE69478B16D8AD4600CD20FE /* Frameworks */,
+				BE69478C16D8AD4600CD20FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acdum;
+			productName = Acdum;
+			productReference = BE69478E16D8AD4600CD20FE /* Acdum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE69478616D8AD4600CD20FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Marcus Kida";
+			};
+			buildConfigurationList = BE69478916D8AD4600CD20FE /* Build configuration list for PBXProject "Acdum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE69478516D8AD4600CD20FE;
+			productRefGroup = BE69478F16D8AD4600CD20FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE69478D16D8AD4600CD20FE /* Acdum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE69478C16D8AD4600CD20FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE69479C16D8AD4600CD20FE /* InfoPlist.strings in Resources */,
+				BE6947A416D8AD4600CD20FE /* Default.png in Resources */,
+				BE6947A616D8AD4600CD20FE /* Default@2x.png in Resources */,
+				BE6947A816D8AD4600CD20FE /* Default-568h@2x.png in Resources */,
+				BE6947AB16D8AD4600CD20FE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE69478A16D8AD4600CD20FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE69479E16D8AD4600CD20FE /* main.m in Sources */,
+				BE6947A216D8AD4600CD20FE /* AppDelegate.m in Sources */,
+				BE6947AE16D8AD4600CD20FE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE69479A16D8AD4600CD20FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE69479B16D8AD4600CD20FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE6947A916D8AD4600CD20FE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE6947AA16D8AD4600CD20FE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE6947AF16D8AD4600CD20FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE6947B016D8AD4600CD20FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE6947B216D8AD4600CD20FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acdum/Acdum-Prefix.pch";
+				INFOPLIST_FILE = "Acdum/Acdum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE6947B316D8AD4600CD20FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acdum/Acdum-Prefix.pch";
+				INFOPLIST_FILE = "Acdum/Acdum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE69478916D8AD4600CD20FE /* Build configuration list for PBXProject "Acdum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6947AF16D8AD4600CD20FE /* Debug */,
+				BE6947B016D8AD4600CD20FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6947B116D8AD4600CD20FE /* Build configuration list for PBXNativeTarget "Acdum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6947B216D8AD4600CD20FE /* Debug */,
+				BE6947B316D8AD4600CD20FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE69478616D8AD4600CD20FE /* Project object */;
+}
